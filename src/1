@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "test_qnet.py", line 1425, in <module>
-    main()
-  File "test_qnet.py", line 1419, in main
-    suite = unittest.TestLoader().loadTestsFromName("test_qnet.TestQnet.%s" % (test_name,))
-  File "/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/loader.py", line 100, in loadTestsFromName
-    parent, obj = obj, getattr(obj, part)
-AttributeError: type object 'TestQnet' has no attribute '2'
