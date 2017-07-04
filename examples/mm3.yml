@@ -1,0 +1,14 @@
+states:
+  - name: INITIAL
+    queues: [ INITIAL ]
+    successors: [ TIER1 ]
+    initial: TRUE 
+  - name: TIER1
+    queues: [ WEB1 ]
+    successors: [ TIER2 ]
+  - name: TIER2
+    queues: [ APP1 ]
+queues:
+  - { name: INITIAL, service: [M, 10.0]  }
+  - { name: WEB1, processors: 3, service: [M, 30.0] }
+  - { name: APP1, processors: 4, service: [M, 30.0] }

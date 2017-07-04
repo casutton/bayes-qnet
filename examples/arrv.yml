@@ -1,0 +1,32 @@
+!Arrivals
+events:
+- !Event {arrival: 0.0, departure: 5.0573782176061455, obs: 1, queue: INITIAL, state: 0,
+  task: 0}
+- !Event {arrival: 0.0, departure: 9.5433894717630476, obs: 1, queue: INITIAL, state: 0,
+  task: 1}
+- !Event {arrival: 0.0, departure: 10.100174658936853, obs: 1, queue: INITIAL, state: 0,
+  task: 2}
+- !Event {arrival: 0.0, departure: 15.399120173836607, obs: 1, queue: INITIAL, state: 0,
+  task: 3}
+- !Event {arrival: 0.0, departure: 20.827496579245874, obs: 1, queue: INITIAL, state: 0,
+  task: 4}
+- !Event {arrival: 5.0573782176061455, departure: 6.1519936034830538, obs: 1, queue: WEB2,
+  state: 1, task: 0}
+- !Event {arrival: 6.1519936034830538, departure: 12.941934313997622, obs: 1, queue: APP1,
+  state: 2, task: 0}
+- !Event {arrival: 9.5433894717630476, departure: 16.177979244871636, obs: 1, queue: WEB2,
+  state: 1, task: 1}
+- !Event {arrival: 10.100174658936853, departure: 17.966515520657275, obs: 1, queue: WEB2,
+  state: 1, task: 2}
+- !Event {arrival: 15.399120173836607, departure: 19.427648828212721, obs: 1, queue: WEB2,
+  state: 1, task: 3}
+- !Event {arrival: 16.177979244871636, departure: 22.911136513937258, obs: 1, queue: APP1,
+  state: 2, task: 1}
+- !Event {arrival: 17.966515520657275, departure: 23.089052981871603, obs: 1, queue: APP1,
+  state: 2, task: 2}
+- !Event {arrival: 19.427648828212721, departure: 28.781177557554468, obs: 1, queue: APP1,
+  state: 2, task: 3}
+- !Event {arrival: 20.827496579245874, departure: 24.478559020698714, obs: 1, queue: WEB1,
+  state: 1, task: 4}
+- !Event {arrival: 24.478559020698714, departure: 33.626615314865091, obs: 1, queue: APP1,
+  state: 2, task: 4}
