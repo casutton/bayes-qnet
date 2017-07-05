@@ -1,4 +1,4 @@
-SOURCES= pwfun.pyx sampling.pyx qnet.pyx distributions.pyx pyglpk.pyx queues.pyx arrivals.pyx
+SOURCES= pwfun.pyx sampling.pyx qnet.pyx distributions.pyx queues.pyx arrivals.pyx
 
 all: gqnet.so
 

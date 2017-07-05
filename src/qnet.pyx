@@ -2156,7 +2156,7 @@ def gibbs_initialize_for_ps (net, arrv):
 def null_initializer (net, arrv): return arrv
 
 #cas?? initializer = gibbs_initialize_via_order
-initializer = gibbs_initialize_via_lp
+initializer = gibbs_initialize_via_dfn2
 
 
 def get_departure(evt): return evt.d

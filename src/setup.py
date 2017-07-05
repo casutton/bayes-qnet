@@ -22,7 +22,6 @@ setup(
     Extension("queues", ["queues.pyx"], extra_compile_args=cflags),
     Extension("qnet", ["qnet.pyx"], extra_compile_args=cflags),
     Extension("distributions", ["distributions.pyx"], extra_compile_args=cflags),
-    Extension("pyglpk", ["pyglpk.pyx"], extra_compile_args=cflags, include_dirs=incdirs, libdirs=libdirs, libraries=["glpk"]),
     ],
   cmdclass = {'build_ext': build_ext}
 )

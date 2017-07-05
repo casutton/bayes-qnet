@@ -40,7 +40,7 @@ cdef class Event:
 
     cpdef Event duplicate (self)
     cdef Event dup_with_structure (self)
-    cdef int update_from_solution (self, lp_soln)
+    cdef int update_from_solution (self, lp_soln) except -1
     cdef copy_dtimes (self, Event other)
 
     #private
