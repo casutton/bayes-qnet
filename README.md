@@ -25,8 +25,10 @@ You will need to create the C shared libraries
 to use the Python code. If you have Cython properly
 installed, this can be done using
 
+```
   cd src/
   make
+```
 
 ## Getting Started
 
@@ -46,8 +48,10 @@ in separate directory, who knows.
 
 The most important one is test_qnet.py. So just
 
+```
   cd src/
   python2 test_qnet.py
+```
 
 should work. A dozen of the tests will fail because I just
 removed some unused (but moderately testing) functionality
