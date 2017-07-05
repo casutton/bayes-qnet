@@ -32,7 +32,7 @@ installed, this can be done using
 
 Of course, there is no real documentation,
 but I have created a Jupyter notebook that walks
-through an example usage. This is in the +examples/+
+through an example usage. This is in the `examples/`
 directory. Hopefully this is enough to get started.
 
 ## Test Suite
@@ -40,8 +40,8 @@ directory. Hopefully this is enough to get started.
 (unfortunately this part is from memory)
 
 To test if you have compiled correctly, you can run the unit
-tests. These are all in the +src/+ directory and their
-names begin with +test_+. Why I decided not to put them
+tests. These are all in the `src/` directory and their
+names begin with `test_`. Why I decided not to put them
 in separate directory, who knows.
 
 The most important one is test_qnet.py. So just
