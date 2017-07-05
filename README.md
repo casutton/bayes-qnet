@@ -35,7 +35,13 @@ installed, this can be done using
 Of course, there is no real documentation,
 but I have created a Jupyter notebook that walks
 through an example usage. This is in the `examples/`
-directory. Hopefully this is enough to get started.
+directory. 
+
+I've saved the notebook both in native Jupyter format,
+so you can run the code one your machine, and as a static
+HTML page, in case you do not have Jupyter installed.
+
+Hopefully this is enough to get started.
 
 ## Test Suite
 
